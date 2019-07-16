@@ -6,28 +6,22 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateMensagemsTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+    /**  */
     public function up()
     {
-        Schema::create('mensagems', function (Blueprint $table) {
+        Schema::create('mensagens', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('contato');
+            $table->string('titulo');
             $table->string('descricao');
+            $table->integer('contato_id')->unsigned();
+            $table->foreign('contato_id')->references('id')->on('contatos')->onDelete('cascade');
             $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
+    /**  */
     public function down()
     {
-        Schema::dropIfExists('mensagems');
+        Schema::dropIfExists('mensagens');
     }
 }

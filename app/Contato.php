@@ -6,28 +6,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Contato extends Model
 {
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
+    /**  */
     protected $table = 'contatos';
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
+    /**  */
     protected $fillable = [
-        'nome', 'sobrenome', 'email', 'telefone',
+        'nome', 'sobrenome', 'email', 'telefone', 'imagem', 'mensagem',
     ];
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
+    /**  */
     public function mensagens(){
-        return $this->hasMany(Mensagem::class);
+        return $this->hasMany(Mensagem::class, 'contato_id');
     }
 }

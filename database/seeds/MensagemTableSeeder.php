@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class MensagemTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,7 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(ContatoTableSeeder::class);
-        $this->call(MensagemTableSeeder::class);
+        factory(\App\Mensagem::class, 20)->create();
     }
 }
