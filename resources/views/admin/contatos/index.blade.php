@@ -15,7 +15,6 @@
                     <th class="center">E-mail</th>
                     <th class="center">Telefone</th>
                     <th>Imagem</th>
-                    <th class="center">Mensagem</th>
                     <th class="center">Ação</th>
                 </tr>
                 </thead>
@@ -31,7 +30,6 @@
                         <td class="center">{{ $registro->email }}</td>
                         <td class="center">{{ $registro->telefone }}</td>
                         <td class="center"><img height="60" src="{{asset($registro->imagem)}}" alt="{{ $registro->nome }}" /></td>
-                        <td class="center">{{ $registro->mensagem }}</td>
                         <td class="center">
                             <a class="btn orange" href="{{ route('admin.contatos.editar',$registro->id) }}">Editar</a>
                             <a class="btn red" href="{{ route('admin.contatos.deletar',$registro->id) }}">Deletar</a>

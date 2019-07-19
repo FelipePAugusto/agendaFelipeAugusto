@@ -11,7 +11,7 @@ class Contato extends Model
 
     /**  */
     protected $fillable = [
-        'nome', 'sobrenome', 'email', 'telefone', 'imagem', 'mensagem',
+        'nome', 'sobrenome', 'email', 'telefone', 'imagem',
     ];
 
     /**  */

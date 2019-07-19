@@ -79,15 +79,45 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
-                </div>
+                    API RESTful Laravel
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <br>
+                </div>
+                <div class="links" >
+                    <a href="" style="font-size: 32px">Exigencias para Testar
+                        <br>
+                    </a>
+                    <p >
+                    <div class="content" style="text-align: left; color: black; font-size: 20px " >
+                        GET - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos
+                        <br>POST - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/salvar
+                        <br>PUT - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/atualizar/2
+                        <br>DELETE - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/deletar/4
+                        <br>
+                        <br>GET - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/listar/3
+                        <br>POST - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/adicionar/1
+                        <br>PUT - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/modificar/5/10
+                        <br>DELETE - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/excluir/12
+                    </div>
+                    </p>
+                </div>
+                <div class="links" >
+                    <a href="" style="font-size: 32px">Usar os seguintes URL's para testar a API RESTful
+                        <br>
+                    </a>
+                    <p >
+                        <div class="content" style="text-align: left; color: black; font-size: 20px " >
+                            GET - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos
+                        <br>POST - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/salvar
+                        <br>PUT - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/atualizar/2
+                        <br>DELETE - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/deletar/4
+                        <br>
+                        <br>GET - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/listar/3
+                        <br>POST - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/adicionar/1
+                        <br>PUT - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/modificar/5/10
+                        <br>DELETE - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/excluir/12
+                        </div>
+                    </p>
                 </div>
             </div>
         </div>

@@ -18,7 +18,6 @@ $factory->define(App\Contato::class, function (Faker\Generator $faker) {
         'sobrenome' => $faker->lastName,
         'email' => $faker->unique()->safeEmail,
         'telefone' => $faker->tollFreePhoneNumber,
-        'imagem' => $faker->imageUrl(60,60),
-        'mensagem' => '0'
+        'imagem' => $faker->imageUrl(60,60)
     ];
 });
