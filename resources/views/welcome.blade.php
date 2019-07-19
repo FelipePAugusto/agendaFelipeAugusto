@@ -78,35 +78,31 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
+                <div class="title m-b-md" style="color: orangered;">
                     API RESTful Laravel
 
                     <br>
                 </div>
                 <div class="links" >
-                    <a href="" style="font-size: 32px">Exigencias para Testar
+                    <a href="" style="font-size: 32px; color: orange;">Exigencias para Testar
                         <br>
                     </a>
                     <p >
-                    <div class="content" style="text-align: left; color: black; font-size: 20px " >
-                        GET - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos
-                        <br>POST - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/salvar
-                        <br>PUT - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/atualizar/2
-                        <br>DELETE - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/deletar/4
-                        <br>
-                        <br>GET - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/listar/3
-                        <br>POST - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/adicionar/1
-                        <br>PUT - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/modificar/5/10
-                        <br>DELETE - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/mensagem/excluir/12
+                    <div class="content" style="text-align: left; color: black; font-size: 20px; font-weight: bold; " >
+                        git clone https://github.com/FelipePAugusto/agendaFelipeAugusto.git
+                        <br>http://127.0.0.1:8080/phpmyadmin
+                        <br>Criar banco com o nome: agendaFelipeAugusto
+                        <br>php artisan migrate
+                        <br>php artisan db:seed
                     </div>
                     </p>
                 </div>
                 <div class="links" >
-                    <a href="" style="font-size: 32px">Usar os seguintes URL's para testar a API RESTful
+                    <a href="" style="font-size: 32px; color: orange;">Usar os seguintes URL's para testar a API RESTful
                         <br>
                     </a>
                     <p >
-                        <div class="content" style="text-align: left; color: black; font-size: 20px " >
+                        <div class="content" style="text-align: left; color: black; font-size: 20px; font-weight: bold; " >
                             GET - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos
                         <br>POST - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/salvar
                         <br>PUT - http://127.0.0.1:8080/agendaFelipeAugusto/public/api/contatos/atualizar/2
@@ -119,6 +115,7 @@
                         </div>
                     </p>
                 </div>
+
             </div>
         </div>
     </body>
